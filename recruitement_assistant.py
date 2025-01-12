@@ -21,8 +21,8 @@ OPENSEARCH_HOST = "search-mydomain-ye3hsdpcernn5cl6ipqzrkfqe4.aos.us-west-2.on.a
 #OPENSEARCH_USER = "admin"
 #OPENSEARCH_PASSWORD = "Dhanya2014*"
 INDEX_NAME = "resumes-index"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyATPK3bCeeo_Lui0Mbc6qj18ieaEe4GRPY"
-#GEMINI_API_KEY = "AIzaSyATPK3bCeeo_Lui0Mbc6qj18ieaEe4GRPY"
+os.environ["GOOGLE_API_KEY"] = ""
+#GEMINI_API_KEY = ""
 
 # AWS Clients
 s3 = boto3.client("s3", region_name=AWS_REGION)
